@@ -44,17 +44,19 @@
 
       const input=document.querySelector('#input');
 
-input.addEventListener('keydown',  (e)=>{
-    let zaman=e.code;
+      input.addEventListener('keydown',async (e)=>{
+let zaman= await e.code;
             alert(zaman)
-//     try {
+            // alert(e.code)
 
-// await alert('merhaba:', e.code)
-        
-//     } catch (error) {
-//         alert(error)
-//     }
-})
+//             try {
+   
+//    await alert('merhaba:', e.keyCode)
+                
+//             } catch (error) {
+//                 alert(error)
+//             }
+        })
 
 
     </script>
