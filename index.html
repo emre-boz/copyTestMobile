@@ -18,6 +18,9 @@
     <button id="btnElement">run</button><br><br>
     <div id="resultElement"></div>
     <button id="btnCopy">copy</button>
+    <hr>
+    <h4>key</h4>
+    <input type="text" id="input">
     <script>
         const inputElement=document.querySelector('#inputElement');
         const btnElement=document.querySelector('#btnElement');  
@@ -37,6 +40,21 @@
           resultElement.style.color = "red";
         }
       });
+
+
+      const input=document.querySelector('#input');
+
+input.addEventListener('keydown',  (e)=>{
+    let zaman=e.code;
+            alert(zaman)
+//     try {
+
+// await alert('merhaba:', e.code)
+        
+//     } catch (error) {
+//         alert(error)
+//     }
+})
 
 
     </script>
