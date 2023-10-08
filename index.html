@@ -58,16 +58,21 @@ let zaman= await e.code;
 //             }
         })
 
-        function handleMotionEvent(event) {
-  const x = event.accelerationIncludingGravity.x;
-  const y = event.accelerationIncludingGravity.y;
-  const z = event.accelerationIncludingGravity.z;
 
-  // Do something awesome.
-  alert(x,y,z)
-}
 
-window.addEventListener("devicemotion", handleMotionEvent, true);
+    // TELEFONUN YATAY DİKEY VS. DEĞİŞİMLERİNİ ALGILAMAK İÇİN
+    // SONSUZ BİR DÖNGÜYE GİRDİĞİ İÇİN KALDIRILDI    
+
+//         function handleMotionEvent(event) {
+//   const x = event.accelerationIncludingGravity.x;
+//   const y = event.accelerationIncludingGravity.y;
+//   const z = event.accelerationIncludingGravity.z;
+
+//   // Do something awesome.
+//   alert(x,y,z)
+// }
+
+// window.addEventListener("devicemotion", handleMotionEvent, true);
     </script>
 </body>
 </html>
